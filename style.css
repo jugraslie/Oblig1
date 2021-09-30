@@ -122,10 +122,11 @@ a:visited{
 .img-dame2 {
     width: 320px;
 }
-/*Portfolie*/
+
 .job-description{
     list-style-type: none;
 }
+/*Portfolie*/
 .column-portfolie{
     float: left;
     width: 20%;
@@ -135,6 +136,17 @@ a:visited{
     content: "";
     clear: both;
     display: table;
+}
+.portfolie-text{
+    line-height: 40px;
+    font-size: 16px;
+}
+.report{
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .footer{
