@@ -1,0 +1,151 @@
+
+body {
+    margin: 0 30px;
+    padding: 40px;
+    height: 100%;
+    min-height: 100%;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    border: 10px;
+}
+.navigation {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+    list-style-type: none;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+a{
+    color: black;
+    font-family: Didot;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+*{
+    box-sizing: border-box;
+}
+/*Home page*/
+.column-home{
+    float: left;
+    width: 33.33%;
+    padding: 0;
+}
+.row-home::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-dame {
+    width: 320px;
+    align-content: left;
+}
+.pull-quote{
+    color: gray;
+    width: 350px;
+
+    margin: 0px auto;
+}
+
+#banner{
+    height: 300px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+#head-text{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+#home-text{
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    text-align: center;
+    border-color: darkgray;
+    border-style: dotted;
+
+}
+#hobbies{
+    color: black;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    text-align: center;
+    border-style: black groove;
+}
+
+
+#list-hobbies {
+    text-decoration: none;
+    list-style-type: none;
+    background-image: url("img/marmor.jpeg");
+    color: white;
+}
+/*Resume*/
+.column-resume{
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 10px 20px;
+    border: black groove;
+}
+.row-resume:after {
+    content: "";
+    clear: both;
+    display: clear;
+}
+
+.img-dame2 {
+    width: 320px;
+}
+/*Portfolie*/
+.job-description{
+    list-style-type: none;
+}
+.column-portfolie{
+    float: left;
+    width: 20%;
+    padding: 0;
+}
+.row-portfolie::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+
+}
+
